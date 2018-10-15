@@ -1,0 +1,21 @@
+h1 {
+  color: SaddleBrown;
+}
+h2 {
+  color: Sienna;
+}
+h3, h4, h5, h6 {
+  color: Peru;
+}
+html {
+  background-color: BurlyWood;
+}
+p, ol, ul {
+  color: maroon;
+}
+#Navigation {
+  background-color: Peru;
+}
+a {
+  color: #72422F;
+}
