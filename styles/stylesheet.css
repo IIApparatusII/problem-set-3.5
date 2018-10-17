@@ -1,5 +1,6 @@
 h1 {
   color: SaddleBrown;
+  text-decoration: underline;
 }
 h2 {
   color: Sienna;
@@ -9,6 +10,8 @@ h3, h4, h5, h6 {
 }
 html {
   background-color: BurlyWood;
+  font-family: "Comic Sans MS", "Arial", "Times New Roman" ;
+  font-weight: 100;
 }
 p, ol, ul {
   color: maroon;
@@ -16,6 +19,23 @@ p, ol, ul {
 #Navigation {
   background-color: Peru;
 }
+#foot {
+  background-color: Peru;
+}
+#link {
+  text-decoration: underline;
+}
+#link:hover {
+  color: SaddleBrown;
+  background-color: BurlyWood;
+  text-decoration: none;
+  transition: background-color .75s;
+}
 a {
   color: #72422F;
+}
+a:hover {
+  color: SaddleBrown;
+  background-color: BurlyWood;
+  transition: background-color .1s;
 }
