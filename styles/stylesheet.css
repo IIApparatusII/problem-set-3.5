@@ -1,6 +1,7 @@
 h1 {
   color: SaddleBrown;
   text-decoration: underline;
+  padding: 0px;
 }
 h2 {
   color: Sienna;
@@ -13,11 +14,14 @@ html {
   font-family: "Comic Sans MS", "Arial", "Times New Roman" ;
   font-weight: 100;
 }
-p, ol, ul {
+p, ol {
   color: maroon;
 }
 #Navigation {
   background-color: Peru;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
 }
 #foot {
   background-color: Peru;
@@ -38,4 +42,16 @@ a:hover {
   color: SaddleBrown;
   background-color: BurlyWood;
   transition: background-color .1s;
+}
+
+ul {
+  list-style-image: url("https://openclipart.org/download/249336/bread.svg");
+
+  color: maroon;
+}
+li {
+  margin: 3px 5px 5px 0px;
+}
+#main {
+  background-image: url("https://us.123rf.com/450wm/milkos/milkos1705/milkos170500971/78111409-bread-background-top-view-of-white-black-and-rye-loaves-on-black.jpg?ver=6");
 }
