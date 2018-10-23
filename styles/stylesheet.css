@@ -1,58 +1,101 @@
 h1 {
-  color: SaddleBrown;
-  text-decoration: underline;
-  padding: 0px;
+ color: SaddleBrown;
+ text-decoration: underline;
+ padding: 0px;
 }
 h2 {
-  color: Sienna;
+ color: Sienna;
 }
 h3, h4, h5, h6 {
-  color: Peru;
+ color: Peru;
 }
 html {
-  background-color: BurlyWood;
-  font-family: "Comic Sans MS", "Arial", "Times New Roman" ;
-  font-weight: 100;
+ background-color: BurlyWood;
+ font-weight: 100;
+ margin: 0%
+}
+* {
+font-family: "Comic Sans MS", "Arial", "Times New Roman" ;
 }
 p, ol {
-  color: maroon;
+ color: maroon;
 }
 #Navigation {
-  background-color: Peru;
-  -moz-box-shadow: 0 0 10px #777777;
-  -webkit-box-shadow: 0 0 10px #777777;
-  box-shadow: 0 0 10px #777777;
+ background-color: Peru;
+ -moz-box-shadow: 0 0 10px #777777;
+ -webkit-box-shadow: 0 0 10px #777777;
+ box-shadow: 0 0 10px #777777;
 }
 #foot {
-  background-color: Peru;
+ background-color: Peru;
 }
 #link {
-  text-decoration: underline;
+ text-decoration: underline;
 }
 #link:hover {
-  color: SaddleBrown;
-  background-color: BurlyWood;
-  text-decoration: none;
-  transition: background-color .75s;
+ color: SaddleBrown;
+ background-color: BurlyWood;
+ text-decoration: none;
+ transition: background-color .75s;
 }
-a {
-  color: #72422F;
+a[href*="ucvts"], a[href*="example"], a[href*="google"]  {
+   color: #72422F;
+}
+a[href*="ucvts"]:visited, a[href*="example"]:visited, a[href*="google"]:visited  {
+   color: rgb(148, 92, 71);
 }
 a:hover {
-  color: SaddleBrown;
-  background-color: BurlyWood;
-  transition: background-color .1s;
+ color: SaddleBrown;
+ background-color: BurlyWood;
+ transition: background-color .1s;
+}
+a[href$=".html"]{
+   color: #72422F;
+}
+a[href$=".html"]:active{
+   color: rgb(126, 49, 18);
+}
+ul.unordered {
+ /*list-style-image: url("https://openclipart.org/download/249336/bread.svg");*/
+ list-style-type: square;
+ background: #ce9657;
+ padding: 20px;
+ color: maroon;
+}
+ol.directions {
+ background: #ce9657;
+ padding: 20px;
+}
+ul > li, ol > li {
+ margin: 3px 5px 5px 0px;
+ background: #eebf82;
+ padding: 5px;
 }
 
-ul {
-  list-style-image: url("https://openclipart.org/download/249336/bread.svg");
-
-  color: maroon;
-}
-li {
-  margin: 3px 5px 5px 0px;
-}
 #main {
-  background-image: url("https://us.123rf.com/450wm/milkos/milkos1705/milkos170500971/78111409-bread-background-top-view-of-white-black-and-rye-loaves-on-black.jpg?ver=6");
-  back
+ background-image: url("https://us.123rf.com/450wm/milkos/milkos1705/milkos170500971/78111409-bread-background-top-view-of-white-black-and-rye-loaves-on-black.jpg?ver=6");
+ back
+}
+
+img {
+ width:"600px";
+ height:"500px";
+}
+
+img.border {
+ border-style: inset;
+}
+
+#getbread {
+ width: "500px";
+ height: "400px";
+}
+
+#typesbread {
+ height: "100px";
+ width: "100px";
+}
+
+table td {
+ font-weight: 0;
 }
